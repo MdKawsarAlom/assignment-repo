@@ -86,3 +86,11 @@ p {
 .burger-box {
   color: orange;
 }
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+.footer-nav {
+  color: orangered;
+}
