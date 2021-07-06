@@ -2,7 +2,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
 }
-.header-span {
+.span-color {
   color: darkorange;
 }
 h1 {
@@ -37,8 +37,9 @@ p {
   width: 80%;
   height: 330px;
   background-image: url(images/shapes/Frame\ 57.jpg);
+
   background-repeat: no-repeat;
-  background-color: #dcdde1;
+  background-color: #55e6c1;
   border-radius: 30px;
   box-shadow: 2px 2px 12 px rgba(0, 0, 0, 0, 2);
   display: flex;
@@ -53,4 +54,11 @@ p {
 }
 .shadow-box img {
   height: 245px;
+}
+.recipe-box {
+  text-align: center;
+  font-size: 40px;
+}
+.recipe-text-box {
+  text-align: center;
 }
