@@ -62,3 +62,27 @@ p {
 .recipe-text-box {
   text-align: center;
 }
+.card img {
+  width: 100%;
+}
+.wrap {
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+.card {
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
+  width: 300px;
+  background: #fff;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  margin: 10px;
+}
+.card:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.6);
+}
+.burger-box {
+  color: orange;
+}
