@@ -33,19 +33,24 @@ p {
   font-weight: 700;
   margin-left: 5px;
 }
-.middle-area {
+.shadow-box {
   width: 80%;
-  height: 300px;
-  background-color: grey;
-  border-radius: 15px;
-  box-shadow: 10px 10px 40px gray;
-  margin: 50px;
+  height: 330px;
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-color: #dcdde1;
+  border-radius: 30px;
+  box-shadow: 2px 2px 12 px rgba(0, 0, 0, 0, 2);
+  display: flex;
+  margin-left: 150px;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.box-image {
-  width: 50%;
+
+.shadow-box {
+  height: 250px;
 }
-.text-box {
-  text-align: right;
-  font-size: 25px;
-  padding-right: 20px;
+.shadow-box img {
+  height: 245px;
 }
